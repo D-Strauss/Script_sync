@@ -232,8 +232,4 @@ Active development. Built as part of an accessibility initiative to bring real-t
 
 ---
 
-*Built with a focus on robustness over elegance — live performances don't have a retry button.*
-
----
-
 Built by Dahni Strauss at [Accessible Futures AB](https://accessiblefutures.se).
