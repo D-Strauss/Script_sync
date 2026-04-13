@@ -1,6 +1,6 @@
 # ScriptSync — Real-Time Speech-to-Script Alignment
 
-Real-time captioning for live performance is an unsolved accessibility problem. Pre-timed subtitles fail the moment an actor pauses, ad-libs, or skips a line. ScriptSync solves this by listening to what's actually being said and matching it against the script as it happens — delivering accurate, perfectly timed captions that follow the performance, not a clock.
+Automatic real-time captioning for live performance is an unsolved accessibility problem. Pre-timed subtitles fail the moment an actor pauses, ad-libs, or skips a line. ScriptSync solves this by listening to what's actually being said and matching it against the script as it happens — delivering accurate, perfectly timed captions that follow the performance.
 
 The system streams audio through cloud ASR, deduplicates and buffers the results, then scores candidates against a preloaded script using a fusion of Swedish phonetic encoding, string similarity, and morphological analysis. An adaptive recovery pipeline handles lost position, skipped lines, and noisy audio without manual intervention.
 
